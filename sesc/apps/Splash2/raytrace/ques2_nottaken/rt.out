@@ -1,0 +1,26 @@
+
+Number of processors:     	1
+Global shared memory size:	128 MB
+Samples per pixel:        	2
+
+Number of primitive objects: 	101
+Number of primitive elements:	3684
+
+****** Hierarchial uniform grid memory allocation summary ******* 
+
+     < struct >:            < current >   < maximum >    < sizeof > 
+     <  bytes >:             <  bytes >   <   bytes >    <  bytes > 
+
+     grid:                      10192         10192           104 
+     hashtable entries:          4272          4272             4 
+     emptycell entries:          1168          1168             4 
+     voxel:                    100400        100400            20 
+     bintree_node:             985520        985520            80 
+
+     Totals:                  1101552       1101552      
+
+TIMING STATISTICS MEASURED BY MAIN PROCESS:
+        Overall start time               1581915953
+        Overall end time             1581915953
+        Total time with initialization                     0
+        Total time without initialization                     0

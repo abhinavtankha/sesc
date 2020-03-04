@@ -1,0 +1,16 @@
+# Bench : /home/cs6290/sesc/sesc.opt -f OrA -c /home/cs6290/sesc/confs/cmp4-noc.conf.oracle.9 -ort.out -ert.err raytrace.mipseb -p1 -m128 -a2 Input/reduced.env 
+# File  : sesc_raytrace.mipseb.OrA :       Sat Feb  8 02:18:36 2020
+      Exe Speed        Exe MHz         Exe Time         Sim Time (1000MHz)
+    129.660 KIPS      0.1442 MHz    1601.820 secs     230.990 msec
+Proc  Avg.Time BPType       Total          RAS           BPred          BTB            BTAC
+   0   28.187  oracle       89.26% (100.00% of   9.43%)  88.14% ( 78.67% of  50.37%)   0.00% 
+           nInst     BJ    Load   Store      INT      FP  : LD Forward , Replay : Worst Unit (clk)
+   0   207691392  11.70%  24.31%  11.76%  40.06%  12.18%  :     12.67%     516 inst/repl  :  LDSTIssueX 2.95 
+Proc  IPC        Cycles  Busy   LDQ   STQ  IWin   ROB  Regs Ports   TLB  maxBr MisBr Br4Clk  Other
+   0  0.90    230989637  45.0   0.0   0.0   2.0  22.2   0.0   0.0   0.0   0.0   29.4    0.1    1.4 
+################################################################################
+Proc  Cache Occ MissRate (RD, WR) %DMemAcc MB/s : ... 
+   0  DL1 0.0   1.02% ( 0.9%, 0.1%) 94.01%  0.20GB/s :  MemoryBus 0 MB/s : 
+################################################################################
+Proc  Cache Occ MissRate (RD, WR) %DMemAcc MB/s : ... 
+   0  IL1 0.0   0.07% ( 0.1%, 0.0%) 144.65%  0.02GB/s :  MemoryBus 0 MB/s : 

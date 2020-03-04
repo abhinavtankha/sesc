@@ -1,0 +1,16 @@
+# Bench : /home/cs6290/sesc/sesc.opt -f NTA -c /home/cs6290/sesc/confs/cmp4-noc.conf.nt -ort.out -ert.err raytrace.mipseb -p1 -m128 -a2 Input/reduced.env 
+# File  : sesc_raytrace.mipseb.NTA :       Fri Feb  7 01:29:58 2020
+      Exe Speed        Exe MHz         Exe Time         Sim Time (1000MHz)
+    181.493 KIPS      0.2705 MHz    1144.350 secs     309.511 msec
+Proc  Avg.Time BPType       Total          RAS           BPred          BTB            BTAC
+   0   15.917  NotTaken     49.63% (100.00% of   9.43%)  44.39% (  0.00% of   0.00%)   0.00% 
+           nInst     BJ    Load   Store      INT      FP  : LD Forward , Replay : Worst Unit (clk)
+   0   207691392  11.70%  24.31%  11.76%  40.06%  12.18%  :      6.22%     863 inst/repl  :  LDSTIssueX 1.90 
+Proc  IPC        Cycles  Busy   LDQ   STQ  IWin   ROB  Regs Ports   TLB  maxBr MisBr Br4Clk  Other
+   0  0.67    309510920  33.6   0.0   0.0   1.4   2.1   0.0   0.0   0.0   0.0   62.7    0.0    0.2 
+################################################################################
+Proc  Cache Occ MissRate (RD, WR) %DMemAcc MB/s : ... 
+   0  DL1 0.0   0.98% ( 0.9%, 0.1%) 97.71%  0.15GB/s :  MemoryBus 0 MB/s : 
+################################################################################
+Proc  Cache Occ MissRate (RD, WR) %DMemAcc MB/s : ... 
+   0  IL1 0.0   0.07% ( 0.1%, 0.0%) 144.64%  0.02GB/s :  MemoryBus 0 MB/s : 

@@ -1,0 +1,20 @@
+
+Integer Radix Sort
+     8192 Keys
+     1 Processors
+     Radix = 256
+     Max key = 65536
+
+
+                 PROCESS STATISTICS
+               Total            Rank            Sort
+ Proc          Time             Time            Time
+    0              0               0               0
+
+                 TIMING INFORMATION
+Start time                        :       1583340704
+Initialization finish time        :       1583340704
+Overall finish time               :       1583340704
+Total time with initialization    :                0
+Total time without initialization :                0
+
